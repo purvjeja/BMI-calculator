@@ -1,0 +1,23 @@
+body{
+    background-image: url(backg.jpg);
+    
+}
+.Tittle{
+    color: blanchedalmond;
+    height:100%;
+    width:100%;
+    align-content:center;
+    align-items: center;
+}
+.Lowerbody{
+    color: cornsilk;
+    height:50%;
+    width:100%;
+    top:40%;
+    left:50%;
+    align-content: center;
+}
+.Button a{
+    color: white;
+    border-block:5 grey;
+}

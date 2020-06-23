@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> BMI | Calculate </title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <body background="stethoscopes.jpg">
+    <body>
+        <form method="post" action="index2.php">
+        <div class="BOX">
+        <h> CHECK YOURS </h>
+               <div class="Text">  
+                  <form action="">
+                 <input type="text" placeholder="Full Name" name="name" required>
+                 <BR><BR/>
+                 <input type="number" placeholder="Age" name="age" required>
+                 <BR><BR/>
+                  <select name="gender" required>
+                   <option value="">Select your Gender</option>
+                   <option value="Male">Male</option>
+                   <option value="Female">Female</option>
+                   <option value="Third Gender">Third gender</option>
+                  </select>            
+                  <BR><BR/>
+                  <input type="number" Placeholder=" Weight in Kilogram" id="weight" name="weight" required> 
+                 <BR><BR/>
+                <input type="number" Placeholder="Height in Centimeter" id="height" name="height" required>
+                 <BR><BR/>
+              </div>
+              <BR><BR/>
+                <BR><BR/>
+
+              <div class="bbtn">
+                  <input class="btn" type="submit" value="Calculate" onclick= "calculatebmi()">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="btn" type="reset">
+              </div>
+              </form>
+        </div>
+      </form>
+    </body>
+</html>

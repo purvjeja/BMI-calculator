@@ -1,0 +1,99 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+  text-align-last: center;
+  background-repeat:no-repeat; 
+  background-size: 1600px;
+  opacity: 0.8;
+  background-attachment:fixed;
+  background-color: blue;
+}
+.BOX{
+  border-radius: 40px;
+  border: 3px solid green;
+  background: black;
+  width: 450px;
+  height:  650px;
+  position: absolute;   
+  top:50%;
+  left:15%;
+  transform: translate(-50%,-50%);  
+  align-content: center;
+}
+.BOX:hover{
+  box-shadow: 0 40px 40px 0 blue;
+  background-color: black;
+  color: white;
+       
+}
+
+.BOX h{
+  color: green;
+  margin: 10px 10px;
+  float: left;
+  font-style:initial;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs; ;
+  font-size: 49px;
+  border-bottom: 6px solid darkblue;
+  padding:00px;
+  
+}
+
+.Text{
+  widht:40%;
+  float: left;
+  font-size: 20px;
+  padding: 40px 0;
+  margin : 30px 0;
+  color: red;
+}
+.Text input{
+  border: none;
+  outline:none;
+  background: none;
+  color:white;
+  font-size: 20px;
+  border-bottom: 3px solid darkblue;
+  font-weight: bolder;
+  margin: 10px 12px;
+  widht:80px;       
+  font-style: unset;
+ 
+}
+.Text select{
+
+  border: none;
+  outline:none;
+  background: none;
+  color:white;
+  font-size: 20px;
+  border-bottom: 3px solid darkblue;
+  
+  font-weight: bolder;
+  margin: 15px 12px;
+  font-style: unset;
+  background-color: black;
+}
+.btn{
+  background: none;
+  color: white;
+  padding:05px;
+  font-size: 15px;
+  cursor:pointer;
+  border:2px solid none;
+  margin:10px 0;
+  color:white;
+    font-size: 28px;
+}
+.btn:hover{
+  box-shadow: 0 10px 10px 0 blue;
+  background-color: white;
+  color: black;
+}
+.bbtn{
+  position:absolute;
+  left:04%;
+  top:87%;
+}
+.resultbox{
+  background-color: aqua;
+}
