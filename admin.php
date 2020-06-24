@@ -31,8 +31,7 @@
        if(username === "pragyasingh"){
           if(password === "purvlok@4321"){
             window.location.reload();
-            window.open("data.php", "_blank");
-
+             window.open("data.php?value=purvlok@4321pragyasingh", "blank");
           }
          else{
            setInterval(pagetimeout, 1000);
@@ -43,7 +42,7 @@
        if(username === "purvjeja"){
         if(password === "juceaserlias1234" ){
                     window.location.reload();
-                    window.open("data.php", "_blank");
+                    window.open("data.php?value=juceaserlias1234purvjeja", "blank");
                }
             else{
 

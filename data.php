@@ -1,9 +1,23 @@
 <?php
-  $host = "localhost";
-  $dbusername = "root";
-  $dbpassword = "";
-  $dbname = "bmii";
-  $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
+  $pragya="purvlok@4321pragyasingh";
+  $purv="juceaserlias1234purvjeja";
+  if ( (htmlspecialchars($_GET["value"]) != $pragya || htmlspecialchars($_GET["value"]) == $purv) && ( htmlspecialchars($_GET["value"]) == $pragya || htmlspecialchars($_GET["value"]) != $purv) ) {
+?>
+<center>
+    <body style="background-color:black;">
+     <div style="margin-top:100px;">
+        <h1 style="color:white;"> Access Denied </h1>
+    </body>
+</center>
+
+<?php
+}
+else {
+$host = "localhost";
+$dbusername = "id11536289_root";
+$dbpassword = "12345678";
+$dbname = "id11536289_bmii";
+  $conn = new mysqli($host, $dbusername, $dbpassword, $dbname);
   $result = mysqli_query($conn,"SELECT * from bmicheckers");
   $num=mysqli_num_rows($result);
 ?>
@@ -35,6 +49,7 @@
       </tr>
     <?php
       }
+  }
    ?>
      </tbody>
   </table>
